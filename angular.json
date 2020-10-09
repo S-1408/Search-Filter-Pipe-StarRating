@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-star-rating"
+    }
+  },
+  "defaultProject": "angular-star-rating",
+  "cli": {
+    "analytics": "d23a4217-88fa-4694-8d3a-630732e80494"
+  }
 }

@@ -1,0 +1,29 @@
+<br>
+<div class="container">
+  <h2>Search Filter pipe in Angular 10 with ng2-search-filter</h2>
+  <br>
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="search......" [(ngModel)]="filterTerm">
+  </div>
+
+  <table class="table">
+ <thead class="thead-dark">
+   <tr>
+     <th scope="col">ID</th>
+     <th scope="col">NAME</th>
+     <th scope="col">USERNAME</th>
+     <th scope="col">EMAIL</th>
+
+
+   </tr>
+ </thead>
+ <tbody>
+   <tr *ngFor="let user of userRecords |filter:filterTerm">
+     <td>{{user.id}}</td>
+     <td>{{user.name}}</td>
+     <td>{{user.username}}</td>
+     <td>{{user.email}}</td>
+   </tr>
+ </tbody>
+  </table>
+</div>

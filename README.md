@@ -15,7 +15,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 2.Install NGBootstrap in Angular(ng add @ng-bootstrap/ng-bootstrap).
 3.define the NgbRating(<ngb-rating [max]="5" [(rate)]="starRating" [readonly]="false"></ngb-rating>)
 
-##Properties
+## Properties
 max =  sets the maximum number of ratings,
 rate =  configures the current rating
 

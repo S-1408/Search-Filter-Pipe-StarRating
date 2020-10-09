@@ -1,27 +1,21 @@
-# AngularStarRating
+# AngularStarRating & AngularSearch-Filter
+
+![Screenshot (8)](https://user-images.githubusercontent.com/60258353/95598639-05010800-0a05-11eb-83cb-f0b3c2b08f80.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
 
-## Development server
+## Steps For Search-Filter
+1. Install ng2-search-filter Package.(npm i ng2-search-filter)
+2.Add Ng2SearchPipeModule & FormsModule in App Module.
+3.Implementing Search Filter in Angular Component.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Steps For AngularStarRating
+1.Install Marked Parser Package.(npm i marked).
+2.Install NGBootstrap in Angular(ng add @ng-bootstrap/ng-bootstrap).
+3.define the NgbRating(<ngb-rating [max]="5" [(rate)]="starRating" [readonly]="false"></ngb-rating>)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+##Properties
+max =  sets the maximum number of ratings,
+rate =  configures the current rating
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
